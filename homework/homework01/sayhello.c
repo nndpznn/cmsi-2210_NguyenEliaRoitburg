@@ -1,7 +1,7 @@
 /**
  * file: sayhello.c
- * author: nolan nguyen
- * description: just outputs, "Hello World!".
+ * author: Nolan Nguyen, Adi Roitburg, JD Elia
+ * description: asks user for name input and then says hello!
 */
 
 #include <stdio.h>
