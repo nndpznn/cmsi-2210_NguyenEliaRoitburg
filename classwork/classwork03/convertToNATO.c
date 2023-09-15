@@ -19,20 +19,6 @@ int main(int argc, char * argv[] ) {
     // Debugging. Confirming that scanf properly receives the user input.
     printf("ENTRY: %s \n", entry);
 
-    // WIP: using argv to take arguments when executing the program.
-    // for (int i = 0; i < sizeof(entry); i++) {
-    //     printf("%c \n", entry[i]);
-    // }
-
-    // for (int i = 0; i < sizeof(argv[0]); i++) {
-        
-    //     for (int k = 0; k < sizeof(letters); k++) {
-    //         if (argv[0][i] == letters[k]) {
-    //             strcat(outputString, nato[k]);
-    //         }
-    //     }
-    // }
-
     // Nested loops: loops through the user input letter by letter, and loops through letters[]
     // and compares them. If they're the same, it concatenates it to an output string 
     // and goes to the next line.
