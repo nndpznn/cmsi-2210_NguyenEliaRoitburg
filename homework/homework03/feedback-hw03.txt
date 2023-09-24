@@ -1,0 +1,104 @@
+
+
+Evaluation Criteria ~ homework03
+CMSI 2210 Section 01 Fall 2023
+=================================
+CONVERSIONS
+
+Problems "C-level"
+=================
+   Question 01      1/1 pt.
+   Question 02      1/1 pt.
+   Question 03      1/1 pt.
+   Question 04      1/1 pt.
+   Question 05      1/1 pt.
+   Question 06      1/1 pt.
+   Question 07      1/1 pt.
+   Question 08      1/1 pt.
+   Question 09      1/1 pt.
+   Question 10      1/1 pt.
+   Question 11      1/1 pt.
+   Question 12      1/1 pt.
+   Question 13      1/1 pt.
+   Question 14      1/1 pt.
+   Question 15      1/1 pt.
+   Question 16      0/1 pt.   nope!
+   Question 17      1/1 pt.
+   Question 18      1/1 pt.
+   Question 19      1/1 pt.
+   Question 20      1/1 pt.
+   Question 21      1/1 pt.
+   Question 22      1/1 pt.
+
+
+Problems "B-level"
+=================
+[renumber so only the actual questions are numbered]
+   Question  01     1/1 pt.
+   Question  02     1/1 pt.
+   Question  03     1/1 pt.
+   Question  04     1/1 pt.
+   Question  05     1/1 pt.
+   Question  06     1/1 pt.
+   Question  07     1/1 pt.
+   Question  08     1/1 pt.
+   Question  09     1/1 pt.
+   Question  10     1/1 pt.
+   Question  11     1/1 pt.
+   Question  12     1/1 pt.
+   Question  13     1/1 pt.
+   Question  14     1/1 pt.
+   Question  15     1/1 pt.
+   Question  16     1/1 pt.
+
+
+Problems "A-level"
+=================
+[renumber so only the actual questions are numbered]
+   Question  01     1/1 pt.
+   Question  02     1/1 pt.
+   Question  03     1/1 pt.
+   Question  04     1/1 pt.
+   Question  05     1/1 pt.
+   Question  06     0/1 pt.   nope!
+   Question  07     0/1 pt.   nope!
+   Question  08   for fun only!
+
+Total possible points 45
+
+========================================================
+TOTAL EARNED POINTS:
+   You earned 21/22 for the "C-level"
+   you earned 16/16 for the "B-level"
+   You earned  5/ 7 for the "A-level"
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+on "C-level" #16, very close, but look again at the number of factors in your
+DECIMAL addition.  [D'oh!]
+
+all "B-level" problems correct!
+
+on "A-level" #6, try calculating 2^-138 as a decimal number, then put that
+result into the converter on the web page at:
+      https://www.h-schmidt.net/FloatConverter/IEEE754.html
+
+on "A-level" #7, do the same as on #5 ~ calculate 2^-143 as a decimal number
+then multiply that by 1.5 and put that result into the web page above.
+
+========================================================
+FIRST PASS OUTCOME:
+
+Currently, because you got all correct on only the "B-level" but not on the
+"C-level" or "A-level" problems, you have a "B" for the assignment.
+
+Make your corrections and re-submit to your repo by Thursday, September 28th.
+You'll get full credit for the highest section's value that has 100% correct
+answers.
+
+You did VERY well on this assignment, especially the "A-level" problems which
+are quite hard and confusing.  You obviously have a good grasp of this
+material.
+
+Keep up the good work!
