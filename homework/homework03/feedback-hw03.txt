@@ -60,8 +60,8 @@ Problems "A-level"
    Question  03     1/1 pt.
    Question  04     1/1 pt.
    Question  05     1/1 pt.
-   Question  06     0/1 pt.   nope!
-   Question  07     0/1 pt.   nope!
+   Question  06     0/1 pt.   Corrected
+   Question  07     0/1 pt.   Corrected
    Question  08   for fun only!
 
 Total possible points 45
@@ -102,3 +102,25 @@ are quite hard and confusing.  You obviously have a good grasp of this
 material.
 
 Keep up the good work!
+
+========================================================
+FIRST PASS OUTCOME:
+
+Still a problem with your #16 on the "C" levels.  The answer should be -17151
+not -15617.  You must take the two's complement of the value to find out the
+absolute value, then put a negative sign on the front.
+
+"A" levels both fixed.
+
+Highest category with all correct was "A" level so you scored an "A" for the
+assignment.
+
+========================================================
+FINAL PASS OUTCOME:
+
+Combining all levels into one assignment.
+
+Total of 45 problems.
+
+You earned 44/45 which is 97.78% which is aN A-plus.
+
