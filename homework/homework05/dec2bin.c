@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void convertToDecimal(int decimal) {
+void convertToBinary(int decimal) {
 
     int binEquivalent[32];
     for (int i=0; i<32; i++) {
@@ -32,6 +32,7 @@ int main(int argc, char * argv[]) {
     printf("Enter the decimal number you'd like to convert to binary: ");
     scanf("%d", &decimalVersion);
     printf("This is your decimal number: %d\n", decimalVersion);
-    convertToDecimal(decimalVersion);
+    printf("... And this is your binary number!\n");
+    convertToBinary(decimalVersion);
     return 0;
 }
