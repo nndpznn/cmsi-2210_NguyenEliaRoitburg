@@ -5,24 +5,24 @@ CMSI 2210 Section 01 Fall 2023
 =================================
 
 LOGIC DESIGN
-   Logic Question 1a      10/10 pts.
+   Logic Question 1a       10/10 pts.
    Logic Question 1b        5/5 pts.
-   Logic Question 2        0/10 pts.
+   Logic Question 2        10/10 pts.
 
 REGISTER OPERATIONS
-   Register clear even      2/2 pts.
+   Register clear even      1/2 pts.
    Register set last 3      2/2 pts.
    Reg./8 remainder         2/2 pts.
-   Reg. set to -1           2/2 pts.
+   Reg. set to -1           1/2 pts.
    Reg. invert 2 MSBs       2/2 pts.
    Register computation     2/2 pts.
 
 STANLEY/PENGUIN ASSEMBLY
    Q4 - program 1a         9/11 pts.
-   Q5 - program 1b        10/11 pts.
-   Q6 - GCD prog.          8/11 pts.
-   Q7 - swap frag           5/5 pts.
-   Q8 - jmp to addr         5/5 pts.
+   Q5 - program 1b         5/11 pts.
+   Q6 - GCD prog.          5/11 pts.
+   Q7 - swap frag           3/5 pts.
+   Q8 - jmp to addr         3/5 pts.
 
 REGISTER INVESTIGATION
    Q9a - high level expl.   5/5 pts.
@@ -34,29 +34,25 @@ Total possible points        90 points
 ========================================================
 
 TOTAL EARNED POINTS:
-   you earned 74/ 90.0 which is 82.22% which is an B-minus
+   you earned 90/90.0 which is 100% which is an A-plus
 
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
 
-on #2, your logic circuit is incorrect
+On #6, do some research on Euclid's GCD algorithm ~ I think you'll find it's
+   much easier to implement!  Fewer lines of code....  but yours works!
 
-on #4, the 8 should be in hex so it is 0x08 and the max should be 255, not 256
+Everything else looks good.  Great work using XOR gates on #2!
 
-on #5, max: 256 machine language is wrong
-
-on #6, your code is quite bloated but the logic makes sense. However, the 100's and 200 should be hex values meaning they should have 0x before them
-
-Good job!
-
+Not bad work!
 ========================================================
 SEMESTER SCORE SO FAR:
 
    homework01 ~ 100.00% of  5 points =  5.00 points
    homework02 ~ 100.00% of  5 points =  5.00 points
-   homework03 ~ 100.00% of  5 points =  5.00 points
+   homework03 ~  97.78% of  5 points =  4.89 points
    homework04 ~ 100.00% of  5 points =  5.00 points
-                                total: 20.00 out of 20.0 = 100.00%
+                                total: 19.89 out of 20.0 = 99.45%
                                 which is an A-plus
 
 Keep up the good work!
