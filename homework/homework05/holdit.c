@@ -18,7 +18,7 @@ int main(int argc, char* argv[]){
         while(1){
             printf("Type STOP when you cannot hold your breath anymore!\n");
             scanf("%s", stop);
-            if(!(strcmp(start, "stop"))){
+            if(!(strcmp(stop, "stop") == 0)){
                 continue;
             } else {
                 break;
