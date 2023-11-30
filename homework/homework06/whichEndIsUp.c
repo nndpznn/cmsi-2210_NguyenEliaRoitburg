@@ -11,6 +11,5 @@ int main() {
     } else {
         printf("Your computer is Big-Endian.\n");
     }
-
     return 0;
 }

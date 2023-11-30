@@ -2,10 +2,12 @@
 #include <assert.h>
 #include <inttypes.h>
 
-int findGCDFunc(int one, int two);
+long long findGCDFunc(long long one, long long two);
 
 int main(){
-    findGCDFunc(10, 5);
-    
-
+    printf("%lld", findGCDFunc(10, 5));
+    printf("%lld", findGCDFunc(10, 5));
+    printf("%lld", findGCDFunc(10, 5));
+    printf("%lld", findGCDFunc(10, 5));
+    printf("%lld", findGCDFunc(10, 5));
 }

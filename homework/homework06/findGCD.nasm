@@ -33,8 +33,8 @@ gcd:
     jz done
 
     xor rdx, rdx
-
-    div rbx
+    
+    idiv rbx
     mov rax, rbx
     mov rbx, rdx
 

@@ -5,6 +5,9 @@ default     rel
 section     .text
 
 _findGCDFunc:
+    mov rax, rdi
+    mov rbx, rsi
+
     cmp rax, 0
     jz end
 

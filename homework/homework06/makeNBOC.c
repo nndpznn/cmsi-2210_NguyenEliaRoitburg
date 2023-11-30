@@ -5,13 +5,13 @@
 
 // Function to determine the endianness of the machine
 int isLittleEndian() {
-    uint32_t num = 1;
+    long num = 1;
     uint8_t *bytePtr = (uint8_t *)&num;
     return (*bytePtr == 1);
 }
 
 // Function to swap byte order to Network Byte Order (big-endian)
-uint32_t swapByteOrder(uint32_t value) {
+long swapByteOrder(uint32_t value) {
     if (isLittleEndian()) {
         return htonl(value);
     } else {
@@ -25,9 +25,9 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    uint32_t inputNumber = atoi(argv[1]);
+    long inputNumber = atoi(argv[1]);
 
-    uint32_t networkByteOrder = swapByteOrder(inputNumber);
+    long networkByteOrder = swapByteOrder(inputNumber);
 
     printf("Original Value: %u\n", inputNumber);
     printf("Network Byte Order: %u\n", networkByteOrder);
