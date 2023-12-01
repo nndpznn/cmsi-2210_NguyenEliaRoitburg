@@ -2,6 +2,7 @@ global      _findGCDFunc
 extern      _fflush
 default     rel
 
+section     .data
 section     .text
 
 _findGCDFunc:
