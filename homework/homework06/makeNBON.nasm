@@ -1,2 +1,2 @@
-global      _main
-extern      _makeNBOC
+global _makeNBOC
+section .data
