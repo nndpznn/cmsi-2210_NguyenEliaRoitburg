@@ -3,30 +3,13 @@
 #include <stdlib.h>   
 #include <arpa/inet.h>
 
-int isLittleEndian() {
-    long num = 1;
-    uint8_t *bytePtr = (uint8_t *)&num;
-    if (*bytePtr == 1) {
-        return 1;
-    } else {
-        return 0;
-    }
-}
+extern void makeNBO(int num);
 
-test(int num){
-    if (isLittleEndian() == 1){
-        printf("LITTLE ENDIAN");
-        long var = 5;
-        printf("Result: %ld", var);
-    } else {
-        printf("IS BIG EDNDIAN\n");
-        printf("Result: %i", num);
-
-    }
-
-    
+int main(int argc, char* argv[]){
+    makeNBO(5);
+    return 0;
+}    
 
 
 
 
-}

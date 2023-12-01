@@ -3,40 +3,20 @@
 #include <stdlib.h>
 #include <arpa/inet.h>
 
+void makeNBO(int num) { 
+    int test_byte = 1;
+    char *bytePtr = (unsigned char *) & test_byte;
 
-// Function to determine the endianness of the machine
-int isLittleEndian() {
-    long num = 1;
-    uint8_t *bytePtr = (uint8_t *)&num;
-    if (*bytePtr == 1) {
-        return 1;
+    if (* bytePtr == test_byte) {
+        printf("Your computer is Little-Endian.\n");
+        int placeholder = htonl(num);
+        printf("%i\n", placeholder);
     } else {
-        return 0;
+        printf("Your computer is Big-Endian.\n");
     }
 }
 
 
-// Function to swap byte order to Network Byte Order (big-endian)
-long swapByteOrder(int value) {
-    if (isLittleEndian()) {
-        return htonl(value);
-    } else {
-        return value;
-    }
-}
 
-int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        printf("Usage: %s <number>\n", argv[0]);
-        return 1;
-    }
 
-    long inputNumber = atoi("50");
 
-    long networkByteOrder = swapByteOrder(inputNumber);
-
-    printf("Original Value: %ld\n", inputNumber);
-    printf("Network Byte Order: %ld\n", networkByteOrder);
-
-    return 0;
-}
