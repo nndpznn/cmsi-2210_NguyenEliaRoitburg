@@ -1,3 +1,10 @@
+;------------------------------------------------------------------------------
+; TO ASSEMBLE:   nasm -fmacho64 findGCD.nasm
+; TO COMPILE:    gcc -arch x86_64 findGCD.o -o findGCD
+; TO RUN:       ./findGCD
+;------------------------------------------------------------------------------
+
+
 global      _main
 extern      _printf,    _scanf,     _fflush
 default     rel

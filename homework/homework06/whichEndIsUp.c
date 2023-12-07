@@ -1,3 +1,9 @@
+/*
+
+TO COMPILE: gcc whichEndIsUp.c -o whichEndIsUp      (Compiles with a warning, however it still runs and produces the deisred output)
+
+*/
+
 #include <stdio.h>
 
 int main() {

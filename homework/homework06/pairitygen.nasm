@@ -1,3 +1,9 @@
+;------------------------------------------------------------------------------
+; TO ASSEMBLE:   nasm -fmacho64 pairitygen.nasm
+; TO COMPILE:    gcc -arch x86_64 pairitygen.o -o pairitygen 
+; TO RUN:       ./pairitygen
+;------------------------------------------------------------------------------
+
 global      _main
 extern      _printf
 default    rel
@@ -49,7 +55,7 @@ end:
     ret
 
 section .data
-    byt:   db   10101010
+    byt:   dd   10101010
 
     one:  db    "1", 0  
     zero  db    "0", 0

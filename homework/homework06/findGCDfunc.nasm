@@ -1,3 +1,9 @@
+;------------------------------------------------------------------------------
+; TO ASSEMBLE:   nasm -fmacho64 findGCDfunc.nasm -o findGCDfunc.o
+; TO LINK:       gcc -arch x86_64 -o gcdFinder gcdFinder.c findGCDfunc.o 
+; TO RUN:        ./gcdFinder
+;------------------------------------------------------------------------------
+
 global      _findGCDFunc
 extern      _fflush
 default     rel

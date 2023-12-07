@@ -1,3 +1,10 @@
+/*
+
+TO LINK: gcc makeNBOC.c makeNBOtest.c -o makeNBOtest        (Links with a warning, but produces desired output)
+TO RUN: ./makeNBOtest
+
+*/
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>   

@@ -1,3 +1,9 @@
+;------------------------------------------------------------------------------
+; TO ASSEMBLE:   nasm -fmacho64 makeNBON.nasm
+; TO LINK:       gcc -arch x86_64 makeNBON.o makeNBOC.c -o makeNBON
+; TO RUN:       ./makeNBON
+;------------------------------------------------------------------------------
+
 section .data
     ; Define constants or data here if needed
 
