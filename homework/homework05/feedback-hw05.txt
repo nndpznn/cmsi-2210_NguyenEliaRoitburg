@@ -5,14 +5,14 @@ CMSI 2210 Section 01 Fall 2021
 =================================
 
 dec2bin
-   compiles       [ 5 pts.]      0 points earned
+   compiles       [ 5 pts.]      5 points earned
    error checks   [ 5 pts.]      5 points earned
-   runs  tests    [10 pts.]      0 points earned
+   runs  tests    [10 pts.]      10 points earned
 dec2hex
-   compiles       [ 5 pts.]      0 points earned
+   compiles       [ 5 pts.]      5 points earned
    error checks   [ 5 pts.]      5 points earned
-   32-bit tests   [ 5 pts.]      0 points earned
-   64-bit tests   [ 5 pts.]      0 points earned
+   32-bit tests   [ 5 pts.]      3 points earned
+   64-bit tests   [ 5 pts.]      2 points earned
 timesTables
    compiles       [ 5 pts.]      5 points earned
    error checks   [ 5 pts.]      5 points earned
@@ -30,12 +30,17 @@ wordcount
 ========================================================
 
 TOTAL EARNED POINTS:
-   you earned 70/100 which is 70.00% which is an A-plus
+   you earned 95/100 which is 95.00% which is an A
 
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
 
 dec2bin and dec2hex does not compile due to warning assignment to int from double
+
+RE-EVALUATION: both work now, but dec2hex puts out WWWAAAAAYYYY too many digits,
+and does it for everything no matter what.  There is no differentiation between
+32 and 64 bit values as was required by the specification.  This bumps the points
+up to be a 95.
 
 ========================================================
 SEMESTER SCORE SO FAR:
@@ -44,6 +49,6 @@ SEMESTER SCORE SO FAR:
    homework02 ~ 100.00% of  5 points =  5.00 points
    homework03 ~  97.78% of  5 points =  4.89 points
    homework04 ~ 100.00% of  5 points =  5.00 points
-   homework05 ~  70.00% of 10 points =  7.00 points
-                                total: 26.89 out of 30.00 = 89.63%
+   homework05 ~  95.00% of 10 points =  9.50 points
+                                total: 29.39 out of 30.00 = 97.97%
                                 which is a B-plus
